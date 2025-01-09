@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata -->
+    <title>UMHackathon 2024</title>
+    <meta
+      name="description"
+      content="UMHackathon is a competition-style events organized by Persatuan Komputer Universiti Malaya (PEKOM) and Faculty of Computer Science and Information System."
+    />
+    <meta name="keywords" content="Hackathon, UMHackathon, UMHackathon2023" />
+    <meta name="author" content="Universiti Malaya" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- Icons,stylesheet and fonts -->
+    <link rel="icon" href="./assets/images/um-logo.svg" type="image/svg" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.3.0/css/all.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body id="back-top">
+    <!-- =========================
+     PRE LOADER
+============================== -->
+    <!-- <div class="preloader">
+      <div class="sk-rotating-plane"></div>
+    </div> -->
+
+    <!--=================== 
+        HEADER Section 
+        =================== -->
+    <section class="container">
+      <nav
+        class="navbar navbar-expand-md fixed-top navbar-light bg-white shadow-sm p-0"
+      >
+        <div class="container-xxl">
+          <a href="#home" class="navbar-brand">
+            <img id="navigation-logo" src="./assets/images/UMH2024.svg" />
+          </a>
+          <!-- toggle button for  small screen size -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main-nav"
+            aria-controls="main-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+          <!-- navbar links -->
+          <div
+            id="main-nav"
+            class="collapse navbar-collapse justify-content-end align-center mx-4"
+          >
+            <ul class="navbar-nav gap-3">
+              <li class="nav-item">
+                <a href="#about-us" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#overview" class="nav-link">Overview</a>
+              </li>
+              <li class="nav-item">
+                <a href="#timeline" class="nav-link"> Timeline </a>
+              </li>
+              <li class="nav-item">
+                <a href="#faq" class="nav-link">FAQ</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a href="#hosts-and-partners" class="nav-link">
+                  Hosts & Partners
+                </a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!--===================
+        HOMEPAGE Section 
+        =================== -->
+    <section id="home">
+      <div class="container-xl container-lg container-fluid pt-lg-5 pt-md-5">
+        <div class="row align-items-center py-5">
+          <div class="col-lg-8 col-md-8 col-sm-7 px-sm-4 px-4">
+            <div class="tagline" data-aos-delay="1500" data-aos="fade-right" data-aos-once="true">
+              <h1 class="gradient-background">A BIGGER STAGE</h1>
+              <h1 class="gradient-background">FOR BIGGER IDEA</h1>
+            </div>
+            <div>
+              <div class="join-now-button" data-aos-offset="50" data-aos-delay="1500" data-aos="fade-right" data-aos-once="true">
+                <a
+                  class="btn btn-danger btn-lg rounded-2 button_join my-3"
+                  href="https://cutt.ly/umhackathon2023_teamregistration"
+                  target="_self"
+                  >Join Now! <i class="uil uil-lightbulb"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-5 text-center">
+            <div
+              class="floting-robot pb-5 d-none d-sm-flex flex-column align-items-center gap-5"
+              data-aos-delay="1500"
+              data-aos="fade"
+              data-aos-easing="ease-in-sine"
+            >
+              <img
+                class="robot"
+                src="./assets/images/mascot24.svg"
+                alt="Floating Robot"
+              />
+              <div class="robot-shadow shadow "></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- The animated square block background in homepage -->
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </section>
+
+    <!--=================== 
+        ABOUT US & OBJECTIVE Section + Recap Video
+        =================== -->
+    <section id="about-us" class="aboutus-section">
+      <div class="container">
+        <div class="aboutus-container">
+          <h2 class="aboutus-title aboutus">ABOUT US</h2>
+
+          <div class="aboutus-wrapper">
+            <p class="aboutus-content">
+              UMHackathon 2024 is a national hackathon organized by the Persatuan Komputer Universiti Malaya(PEKOM) and the 
+              Faculty of Computer Science and Information Technology, focusing on Data Science and Machine Learning. 
+              We aim to solve real-world data challenges in various fields through industry experts.
+            </p>
+          </div>
+
+          <h2 class="aboutus-title">OBJECTIVE</h2>
+
+          <div class="objective">
+            <div class="objective-container">
+              <div class="objective-textbox1">
+                <div class="objective-image">
+                  <img src="./assets/images/Creativity.svg" alt="a" />
+                </div>
+                <div class="objective-text">
+                  <h3 class="objective-smalltitle">Unearthing Creativity</h3>
+                  <p class="objective-content">
+                    Unearthing student&#39;s creativity in solving a problem
+                    within the specified time by providing a platform for idea
+                    generation and prototype improvement
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="objective-container">
+              <div class="objective-textbox2">
+                <div class="objective-image">
+                  <img src="./assets/images/Development Setting.svg" alt="a" />
+                </div>
+                <div class="objective-text">
+                  <h3 class="objective-smalltitle">Developing ICT Skills</h3>
+                  <p class="objective-content">
+                    Encourage the development of Information and Communication
+                    Technology (ICT) skills by revealing the latest
+                    technological knowledge and skills to participants, as well
+                    as challenging participants to apply the technology learned
+                    practically.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="objective-container">
+              <div class="objective-textbox3">
+                <div class="objective-image">
+                  <img src="./assets/images/Teamwork.svg" alt="a" />
+                </div>
+                <div class="objective-text">
+                  <h3 class="objective-smalltitle">Promote Team Spirit</h3>
+                  <p class="objective-content">
+                    Encourage university students to get involved in industrial
+                    problems by working together to contribute solutions to
+                    those problems through the construction of prototypes or
+                    products.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="recap text-center px-xl-5 pt-5">
+            <h2 class="aboutus-title aboutus">RECAP </h2>
+            <iframe class="text-center px-xl-5" 
+            width="100%" height="359" 
+            src="https://www.youtube.com/embed/zEsi570tJe0?controls=0&showinfo=0" 
+            title="UMHackathon Recap" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================
+        OVERVIEW & MILESTONE Section
+        =================== -->
+    <section id="overview">
+        <div class="overview_title mb-5 text-center">
+          <h2 class="fw-bold">OVERVIEW</h2>
+        </div>
+
+        <div class="overview_container">
+          <div class="overview_flexbox">
+            <div class="overview">
+              <i class="uil uil-file-search-alt overview_icon"></i>
+              <h3>Sectors Involved</h3>
+              <div>2 Domains Covered</div>
+            </div>
+            <div class="overview">
+              <i class="uil uil-laptop overview_icon"></i>
+              <h3>Competition Mode</h3>
+              <div>Physical Mode</div>
+            </div>
+            <div class="overview">
+              <i class="uil uil-university overview_icon"></i>
+              <h3>Venue</h3>
+              <div>Universiti Malaya<br />KPS</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="prizepool_section">
+          <div class="prizepool mt-5 text-center fs-1 fw-bold">PRIZE POOL</div>
+          <div class="prizepool section_subtitle">
+            Up to <span>RM 20K</span> for both domains!
+          </div>
+          <div class="prizepool_container" id="prizepool_container">
+            <div class="prizepool_award second" id="gold">
+              <img src="assets/images/secondrunner.svg" alt="" class="tier" />
+              <p class="amount_second">RM 3000</p>
+            </div>
+            <div class="prizepool_award first" id="diamond">
+              <img src="assets/images/champion.svg" alt="" class="tier" />
+              <p class="amount_first">RM 5000</p>
+            </div>
+            <div class="prizepool_award third" id="silver">
+              <img src="assets/images/thirdrunner.svg" alt="" class="tier" />
+              <p class="amount_third">RM 2000</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone_title">
+          <div>What We <span> Achieved</span></div>
+        </div>
+        <div class="milestone_container container">
+          <div class="wrappers">
+            <div class="milestone">
+              <i class="uil uil-users-alt milestone_icon"></i>
+              <span class="num" data-val="178">000</span>
+              <span class="text">Participants</span>
+            </div>
+            <div class="milestone">
+              <i class="uil uil-university milestone_icon"></i>
+              <span class="num" data-val="20">20</span>
+              <span class="text">University</span>
+            </div>
+            <div class="milestone">
+              <i class="uil uil-file-upload milestone_icon"></i>
+              <span class="num" data-val="41">41</span>
+              <span class="text">Submission</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================
+        TIMELINE Section
+        =================== -->
+    <section id="timeline" class="timeline_section section">
+      <div class="timeline_container">
+        <div class="top-section">
+          <h1 class="section_title">Our Journey has started</h1>
+        </div>
+
+        <div class="timeline">
+          <div class="line"></div>
+          <div class="line_section">
+            <div class="bead"></div>
+            <div class="content content1">
+              <h2>1st March 2024</h2>
+              <ul>
+                <li>Registration Open</li>
+              </ul>
+            </div>
+            <div></div>
+          </div>
+
+          <div class="line_section">
+            <div class="bead"></div>
+            <div class="content content2">
+              <h2>14th March 2024</h2>
+              <ul>
+                <li>Registration Close</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="line_section">
+            <div class="bead"></div>
+            <div class="long_content content3">
+              <h2>26th March 2024</h2>
+              <ul>
+                <li>Reveal of Problem Statements</li>
+                
+              </ul>
+            </div>
+          </div>
+
+          <div class="line_section">
+            <div class="bead"></div>
+            <div class="long_content content4">
+              <h2>30th March 2024</h2>
+              <ul>
+                <li>Opening Ceremony</li>
+                <li>Mentoring Session</li>
+                <li>Booth Exhibition</li>
+                <li>Workshop</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="line_section">
+            <div class="bead"></div>
+            <div class="long_content content5">
+              <h2>31st March 2024</h2>
+              <ul>
+                <li>Final Pitching</li>
+                <li>Closing Ceremony</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=================== 
+        COUNTDOWN Section 
+        =================== -->
+    <section class="count_down">
+      <div class="count_down_timer_container">
+        <h2 class="section_title">CountDown to UMHackathon 2024</h2>
+        <div class="count_down_timer">
+          <div class="circle" style="--clr: #00ddff">
+            <div class="dots day_dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70" id="dd"></circle>
+            </svg>
+            <div id="days">00<br /><span>Days</span></div>
+          </div>
+
+          <div class="circle" style="--clr: #ff2972">
+            <div class="dots hr_dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70" id="hh"></circle>
+            </svg>
+            <div id="hours">00<br /><span>Mins</span></div>
+          </div>
+
+          <div class="circle" style="--clr: #fee800">
+            <div class="dots min_dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70" id="mm"></circle>
+            </svg>
+            <div id="minutes">00</div>
+          </div>
+
+          <div class="circle" style="--clr: #04fc43">
+            <div class="dots sec_dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70" id="ss"></circle>
+            </svg>
+            <div id="seconds">00</div>
+          </div>
+        </div>
+      </div>
+
+      <img src="./assets/images/countdown-1.svg" alt="countdown-graphic" />
+    </section>
+
+    <!--===================
+        FAQ Section
+        =================== -->
+    <!-- ========================================== FAQ Section =========================================-->
+    <section id="faq">
+      <div class="container">
+        <div class="row py-5 justify-content-center align-item-center">
+          <!-- Section Title -->
+          <div class="col-md-8 col-sm-11 text-center">
+            <div class="section-title mb-5">
+              <h2 class="fs-1 fw-bold text-light">
+                FREQUENTLY ASKED QUESTIONS
+              </h2>
+            </div>
+          </div>
+
+          <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10">
+            <div class="accordion" id="questions">
+              <div
+                class="accordion-item my-4"
+                data-aos="fade-right"
+                data-aos-easing="ease-in"
+                data-aos-once="true"
+              >
+                <h2 class="accordion-header" id="heading-1">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-1"
+                    aria-expanded="false"
+                    aria-controls="question-1"
+                  >
+                    When will UMHackathon 2024 be held?
+                  </button>
+                </h2>
+                <div
+                  id="question-1"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-1"
+                  data-bs-parent="#questions"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      UMHackathon 2023 will be held physically, from 5 May 2023
+                      (Friday) to 7 May 2023 (Sunday).
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-item my-4"
+                data-aos="fade-left"
+                data-aos-easing="ease-in"
+                data-aos-once="true"
+              >
+                <h2 class="accordion-header" id="heading-2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-2"
+                    aria-expanded="false"
+                    aria-controls="question-2"
+                  >
+                    Who can participate?
+                  </button>
+                </h2>
+                <div
+                  id="question-2"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-2"
+                  data-bs-parent="#questions"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      All undergraduates are welcome to join us! We welcome all
+                      active undergraduates from public and private universities
+                      in Malaysia, regardless of the year of studies.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-item my-4"
+                data-aos="fade-right"
+                data-aos-easing="ease-in"
+                data-aos-once="true"
+              >
+                <h2 class="accordion-header" id="heading-3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-3"
+                    aria-expanded="false"
+                    aria-controls="question-3"
+                  >
+                    Are there any fee will be charged for participation?
+                  </button>
+                </h2>
+                <div
+                  id="question-3"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-3"
+                  data-bs-parent="#questions"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Yes, each team needs to deposit a commitment fee of RM50.
+                      After the end of event, fee will be refunded.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-item my-4"
+                data-aos="fade-left"
+                data-aos-easing="ease-in"
+                data-aos-once="true"
+              >
+                <h2 class="accordion-header" id="heading-4">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-4"
+                    aria-expanded="false"
+                    aria-controls="question-4"
+                  >
+                    When will be the registration period?
+                  </button>
+                </h2>
+                <div
+                  id="question-4"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-4"
+                  data-bs-parent="#questions"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Team registration form will be open from 1 April 2023
+                      (Saturday 12:00 P.M.) till 14 April 2023 (Friday 11:59
+                      P.M.) However, the registration is on a
+                      first-come,first-served basis and will be closed once 30
+                      teams have registered.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-item my-4"
+                data-aos="fade-right"
+                data-aos-easing="ease-in"
+                data-aos-once="true"
+              >
+                <h2 class="accordion-header" id="heading-5">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-5"
+                    aria-expanded="false"
+                    aria-controls="question-5"
+                  >
+                    Are there any team formation requirements?
+                  </button>
+                </h2>
+                <div
+                  id="question-5"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-5"
+                  data-bs-parent="#questions"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      To register, you are required to form a team of 1 to 5
+                      members, regardless of the university they are currently
+                      studying in.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-item my-4"
+                data-aos="fade-left"
+                data-aos-easing="ease-in"
+                data-aos-once="true"
+              >
+                <h2 class="accordion-header" id="heading-6">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-6"
+                    aria-expanded="false"
+                    aria-controls="question-6"
+                  >
+                    How to register?
+                  </button>
+                </h2>
+                <div
+                  id="question-6"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-6"
+                  data-bs-parent="#questions"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Each team shall elect a team leader and fill up the
+                      UMHackathon 2023 Team Registration Form. A formal
+                      acceptance notice will be sent to the team leader via
+                      email upon valid team registration.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-item my-4"
+                data-aos="fade-right"
+                data-aos-easing="ease-in"
+                data-aos-once="true"
+              >
+                <h2 class="accordion-header" id="heading-7">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-7"
+                    aria-expanded="false"
+                    aria-controls="question-7"
+                  >
+                    How and where will UMHackathon 2023 be conducted?
+                  </button>
+                </h2>
+                <div
+                  id="question-7"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-7"
+                  data-bs-parent="#questions"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      UMHackathon 2023 will be conducted fully physical at
+                      Faculty of Computer Science and Information Technology
+                      (University Malaya).
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-item my-4"
+                data-aos="fade-left"
+                data-aos-easing="ease-in"
+                data-aos-once="true"
+              >
+                <h2 class="accordion-header" id="heading-8">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-8"
+                    aria-expanded="false"
+                    aria-controls="question-8"
+                  >
+                    How many competing rounds are there and what will we need to
+                    do?
+                  </button>
+                </h2>
+                <div
+                  id="question-8"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-8"
+                  data-bs-parent="#questions"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      There will be no ideation round, all the participating
+                      teams will be brought to the final picthing together.
+                      Remember to catch up with our latest updates!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-center text-light mt-5">
+                <h5 class="fs-6">
+                  Need more infomation? Email us at
+                  <a class="contact-link" href="mailto:umhackathon@um.edu.my"
+                    >umhackathon@um.edu.my</a
+                  >
+                  or reach us at
+                  <a
+                    class="contact-link"
+                    href="https://www.facebook.com/umhackathon/"
+                    target="_blank"
+                    >facebook/umhackathon</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--===================
+        HOSTS AND PARTNERS Section 
+        =================== -->
+    <!-- <section class="hostnpartners_section section" id="hosts-and-partners">
+      <div class="hostnpartners_title">
+        <h2 class="section_title">HOSTS AND PARTNERS</h2>
+      </div>
+      <div class="hostnpartners">
+        <div id="drag">
+          <div id="spin">
+            <img src="assets/images/Host-Pekom.svg" alt="" class="image host" />
+            <img
+              src="assets/images/Diamond-Fusionex.svg"
+              alt=""
+              class="image diamond"
+            />
+            <img
+              src="assets/images/Platinum-Maxis.svg"
+              alt=""
+              class="image platinum"
+            />
+            <img
+              src="assets/images/Platinum-Swift.svg"
+              alt=""
+              class="image platinum"
+            />
+            <img
+              src="assets/images/Gold-Cyber-village.svg"
+              alt=""
+              class="image gold"
+            />
+            <img
+              src="assets/images/Gold-Dell.svg"
+              alt=""
+              class="image gold"
+            />
+            <img
+              src="assets/images/Collaborator-Maxis.svg"
+              alt=""
+              class="image collaborator"
+            />
+            <img
+              src="assets/images/Collaborator-IgnitexReluvate.svg"
+              alt=""
+              class="image collaborator"
+            />
+            <img
+              src="assets/images/Bik-VertexPrinting.svg"
+              alt=""
+              class="image benefit-in-kind"
+            />
+          </div>
+          <div id="ground"></div>
+        </div>
+      </div>
+    </section> -->
+
+    <!--=================== 
+        FOOTER Section 
+        =================== -->
+    <body>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <p class="footer-text m0 pt" id="tnc">
+                Terms & Conditions <br />
+              </p>
+              <ul class="doc-icon" id="doc-icon">
+                <li>
+                  <a
+                    href="https://cutt.ly/umhackathon2023_TnC"
+                    target="_blank"
+                    class="fa-solid fa-file"
+                    data-aos="fade-right"
+                  ></a>
+                </li>
+              </ul>
+
+              <p class="footer-text" id="flw-us">Follow Us</p>
+              <ul class="social-icon" id="social-icon">
+                <li>
+                  <a
+                    href="https://www.facebook.com/umhackathon/"
+                    target="_blank"
+                    class="fa-brands fa-facebook-f"
+                    data-aos="fade-right"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/umhackathon/"
+                    target="_blank"
+                    class="fa-brands fa-instagram"
+                    data-aos="fade-right"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/umhackathon/"
+                    target="_blank"
+                    class="fa-brands fa-linkedin-in"
+                    data-aos="fade-right"
+                  ></a>
+                </li>
+              </ul>
+              <hr />
+
+              <p class="bottom-text m0 pt center">
+                Copyright &copy; UMHackathon 2023 | Email:
+                <a
+                  class="contact-link"
+                  rel="nofollow"
+                  href="mailto:umhackathon@um.edu.my>"
+                  target="_parent"
+                  >umhackathon@um.edu.my</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </body>
+
+    <!-- RETURN TO TOP BUTTON -->
+    <a href="#back-top" class="go-top hidden"
+      ><i class="fa fa-angle-up" style="color: white"></i
+    ></a>
+
+    <!-- Link to main.js file -->
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script>
+      AOS.init();
+      $('div.join-now-button').each(function (index) {
+        var btn = this;
+        
+        
+      })
+
+
+    </script>
+  </body>
+</html>
