@@ -1,6 +1,6 @@
-# umh-2024
+# umh-2025
 
-UMHackathon 2024 website will be revamped with a new looks, according to the Creation Team design, Technical Team will in charge of implementing the code, happy coding!
+UMHackathon 2025 website will be revamped with a new looks, according to the Creation Team design, Technical Team will in charge of implementing the code, happy coding!
 
 ### Some contributor guidelines
 
