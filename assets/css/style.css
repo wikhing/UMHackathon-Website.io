@@ -971,9 +971,7 @@ span.text {
   line-height: 1.5;
   font-weight: 400;
   color: white;
-  background: linear-gradient(to top, #c5047e 0%, #5f00dc 100%);
-    )
-    top;
+  background: linear-gradient(to top, #6060ff 0%, #030068 100%);
 }
 
 .line_section {
@@ -996,7 +994,7 @@ span.text {
   transform: translateX(100%);
 }
 
-.bead {
+.bead_start {
   position: absolute;
   display: block;
   height: 1rem;
@@ -1009,20 +1007,50 @@ span.text {
   transform: translateX(-50%);
 }
 
+.bead_end {
+  position: absolute;
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 10px #fff;
+  left: 40%;
+  top: 20%;
+  transform: translateX(-50%);
+}
+
+.line_section:nth-child(odd) .bead_end {
+  left: 60%;
+}
+
+.dotted_line {
+  position: absolute;
+  border: none;
+  border-top: 5px dotted #fff;
+  background: transparent;
+
+  height: 0;
+  width: calc(10% + 0.5rem);
+  top: -25%;
+  left: 40%;
+}
+
+.line_section:nth-child(odd) .dotted_line {
+  left: 50%;
+}
+
+.line_section3 .dotted_line, .line_section5 .dotted_line {
+  top: -50%;
+}
+
 .content {
   /* transform: translateY(-80%); */
+  text-align: center;
   width: calc(50%-2rem);
   word-wrap: break-word;
-}
-
-.long_content {
-  word-wrap: break-word;
-  /* transform: translateY(-50%); */
-  width: calc(50%-2rem);
-}
-
-.long_content h2 {
-  color: #fff;
+  position: relative;
+  left: -5%;
 }
 
 .content h2 {
@@ -1051,9 +1079,28 @@ span.text {
   color: #fff;
 }
 
+#timeline-logo {
+  width: 70%;
+}
+
 .timeline {
   position: relative;
   min-height: 150px;
+}
+
+.timeline_section_title {
+  font-size: xx-large;
+  color: #fff;
+  position: relative;
+}
+
+.title2 {
+  left: 60%;
+}
+
+.separator {
+  position: relative;
+  top: 50%;
 }
 
 .line {
@@ -1064,6 +1111,7 @@ span.text {
   top: -50px;
   bottom: -50px;
   background-color: #fff;
+  box-shadow: 0 0 10px #fff;
   display: none;
 }
 
@@ -1076,6 +1124,7 @@ span.text {
   width: 1rem;
   border-radius: 50%;
   background-color: #fff;
+  box-shadow: 0 0 10px #fff;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -1095,6 +1144,12 @@ span.text {
 
 /* responsive page for timeline for medium screen */
 @media screen and (max-width: 900px) {
+  .dotted_line {
+    height: 0;
+    width: calc(10%);
+    left: 40%;
+  }
+
   /* count down sector */
   .count_down {
     display: grid;
@@ -1103,6 +1158,35 @@ span.text {
 
 /* responsive page for timeline for small screen */
 @media screen and (max-width: 600px) {
+  .dotted_line {
+    height: 0;
+    width: calc(5%);
+    top: -40%;
+    left: 45%;
+  }
+
+  .line_section:nth-child(odd) .dotted_line {
+    left: 50%;
+  }
+
+  .line_section3 .dotted_line, .line_section5 .dotted_line {
+    top: -80%;
+  }
+
+  .timeline_section_title {
+    font-size: large;
+    position: relative;
+  }
+
+  .bead_end {
+    left: 45%;
+    top: 20%;
+  }
+
+  .line_section:nth-child(odd) .bead_end {
+    left: 55%;
+  }
+
   .content1 ul li {
     transform: translateX(-25%);
   }
